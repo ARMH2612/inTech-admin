@@ -1,0 +1,1 @@
+export { WilayaPrices } from './WilayaPrices';

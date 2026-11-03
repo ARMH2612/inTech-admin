@@ -1,0 +1,1 @@
+export { PartnerShops } from './PartnerShops';

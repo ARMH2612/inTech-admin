@@ -1,0 +1,1 @@
+export { DiagnosticDomains } from './DiagnosticDomains';

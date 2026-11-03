@@ -1,0 +1,7 @@
+import { ArrowRight, ArrowUpRight, Wrench } from 'lucide-react';
+import { Status } from '../Status';
+import type { RequestSummary } from '../../types';
+interface RequestTableProps { data?: RequestSummary[]; onSelect?: (request: RequestSummary) => void; onSeeAll?: () => void }
+export function RequestTable({ data = [], onSelect = () => {}, onSeeAll }: RequestTableProps) {
+  return <section className="panel request-panel"><div className="panel-head request-head"><div><h2>Demandes récentes <span className="table-count">{data.length}</span></h2><p>Le suivi des demandes côté client et technicien.</p></div>{onSeeAll && <button className="link-button" onClick={onSeeAll}>Toutes les demandes <ArrowRight size={15} /></button>}</div><div className="table-wrap"><table><thead><tr><th>RÉFÉRENCE</th><th>APPAREIL</th><th>TYPE DE SERVICE</th><th>ÉTAT</th><th>MISE À JOUR</th><th /></tr></thead><tbody>{data.map(row => <tr key={row.id} onClick={() => onSelect(row)}><td><span className="request-ref"><span className="ref-icon"><Wrench size={15} /></span><b>{row.id}</b></span></td><td><b>{row.device}</b><small>{row.model}</small></td><td>{row.kind}</td><td><Status>{row.status}</Status></td><td className="date-cell">{row.date}</td><td><button className="row-open" aria-label={`Ouvrir ${row.id}`} onClick={e => { e.stopPropagation(); onSelect(row); }}><ArrowUpRight size={17} /></button></td></tr>)}</tbody></table>{!data.length && <div className="table-empty">Aucune demande.</div>}</div><div className="table-foot"><span>{data.length} demandes affichées</span></div></section>;
+}

@@ -1,0 +1,336 @@
+--------- beginning of main
+09-26 16:22:19.875  5817  5817 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10230
+09-26 16:22:19.877  5817  5817 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10230/pid_5817
+09-26 16:22:19.882  5817  5817 I Zygote  : Process 5817 created for com.oualidsahnoun.intech
+09-26 16:22:19.883  5817  5817 I dsahnoun.intech: Using generational CollectorTypeCMC GC.
+09-26 16:22:19.884  5817  5817 W dsahnoun.intech: Unexpected CPU variant for x86: x86_64.
+09-26 16:22:19.884  5817  5817 W dsahnoun.intech: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, pantherlake, default
+09-26 16:22:19.887  5817  5817 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-26 16:22:19.925  5817  5817 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+09-26 16:22:19.931  5817  5817 D nativeloader: Configuring clns-9 for other apk /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/lib/x86_64:/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.oualidsahnoun.intech
+09-26 16:22:19.944  5817  5817 V GraphicsEnvironment: Currently set values for:
+09-26 16:22:19.944  5817  5817 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-26 16:22:19.944  5817  5817 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-26 16:22:19.944  5817  5817 V GraphicsEnvironment: com.oualidsahnoun.intech is not listed in per-application setting
+09-26 16:22:19.944  5817  5817 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+09-26 16:22:19.947  5817  5817 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-26 16:22:19.981  5817  5817 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+09-26 16:22:19.990  5817  5817 I FirebaseInitProvider: FirebaseApp initialization successful
+09-26 16:22:20.011  5817  5817 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+09-26 16:22:20.019  5817  5817 D DesktopExperienceFlags: Toggle override initialized to: false
+09-26 16:22:20.021  5817  5817 W SoLoader: Initializing SoLoader: 0
+09-26 16:22:20.022  5817  5817 W SoLoader: Recording new base apk path: /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk
+09-26 16:22:20.022  5817  5817 W SoLoader: Previously recorded 0 base apk paths.
+09-26 16:22:20.022  5817  5817 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+09-26 16:22:20.022  5817  5817 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+09-26 16:22:20.022  5817  5817 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64]]
+09-26 16:22:20.027  5817  5817 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/lib/x86_64 flags = 0]]
+09-26 16:22:20.027  5817  5817 I SoLoader: init finish: 4 SO sources prepared
+09-26 16:22:20.027  5817  5817 W SoLoader: SoLoader initialized: 8
+09-26 16:22:20.039  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libc++_shared.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.081  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libjsi.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.084  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libfbjni.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.087  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreactnative.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7845286afba0
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78452878b530
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78452879e0a0
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7845287c4fa0
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78452886ca50
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x7845288878c0
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78452888e150
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7845288ac450
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x784528957b80
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78452895fab0
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x784528967130
+09-26 16:22:20.091  5817  5817 D jni_lib_merge: About to register 11 actual methods.
+09-26 16:22:20.118  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreact_codegen_rnscreens.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7845286afba0
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78452878b530
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78452879e0a0
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7845287c4fa0
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78452886ca50
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x7845288878c0
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78452888e150
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7845288ac450
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x784528957b80
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78452895fab0
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x784528967130
+09-26 16:22:20.119  5817  5817 D jni_lib_merge: About to register 11 actual methods.
+09-26 16:22:20.140  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreact_codegen_RNCSlider.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.155  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreact_codegen_safeareacontext.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.159  5817  5817 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libappmodules.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+--------- beginning of system
+09-26 16:22:20.177  5817  5864 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+09-26 16:22:20.207  5817  5817 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-26 16:22:20.238  5817  5864 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+09-26 16:22:20.238  5817  5864 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+09-26 16:22:20.239  5817  5864 W libc    : Access denied finding property "vendor.mesa.virtgpu.kumquat"
+09-26 16:22:20.269  5817  5817 D CompatChangeReporter: Compat change id reported: 377864165; UID 10230; state: ENABLED
+09-26 16:22:20.275  5817  5864 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-26 16:22:20.276  5817  5864 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-26 16:22:20.310  5817  5817 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+09-26 16:22:20.310  5817  5817 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+09-26 16:22:20.311  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+09-26 16:22:20.311  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+09-26 16:22:20.311  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+09-26 16:22:20.312  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+09-26 16:22:20.312  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+09-26 16:22:20.315  5817  5817 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+09-26 16:22:20.315  5817  5817 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-26 16:22:20.325  5817  5817 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+09-26 16:22:20.325  5817  5817 W unknown:BridgelessReact: ReactContext.onHostResume()
+09-26 16:22:20.327  5817  5870 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libhermes.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.328  5817  5870 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libhermestooling.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.328  5817  5870 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-26 16:22:20.328  5817  5870 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+09-26 16:22:20.328  5817  5870 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x7845fa51e730
+09-26 16:22:20.328  5817  5870 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x7845fa525db0
+09-26 16:22:20.328  5817  5870 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x7845fa526540
+09-26 16:22:20.328  5817  5870 D jni_lib_merge: About to register 3 actual methods.
+09-26 16:22:20.331  5817  5870 I NitroMmkvOnLoad: Loading NitroMmkv C++ library...
+09-26 16:22:20.335  5817  5870 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libNitroMmkv.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes3.dex): ok
+09-26 16:22:20.335  5817  5870 I NitroMmkvOnLoad: Successfully loaded NitroMmkv C++ library!
+09-26 16:22:20.387  5817  5817 W HWUI    : Unknown dataspace 0
+09-26 16:22:20.418  5817  5817 D VRI[MainActivity]: WindowInsets changed: 1080x2400 statusBars:[0,132,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,164,0,84] 
+09-26 16:22:20.419  5817  5817 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@8b121cf
+09-26 16:22:20.421  5817  5876 W libc    : Access denied finding property "vendor.mesa.virtgpu.kumquat"
+09-26 16:22:20.437  5817  5817 I Surface : Creating surface for consumer unnamed-5817-0 with slotExpansion=1 for 64 slots
+09-26 16:22:20.438  5817  5817 I Surface : Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+09-26 16:22:20.447  5817  5870 I ExpoModulesCore: ✅ AppContext was initialized
+09-26 16:22:20.474  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+09-26 16:22:20.478  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+09-26 16:22:20.478  5817  5870 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+09-26 16:22:20.486  5817  5817 W unknown:BridgelessReact: ReactContext.onHostResume()
+09-26 16:22:20.486  5817  5817 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+09-26 16:22:20.499  5817  5871 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libexpo-modules-core.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.529  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapUrlTileManager
+09-26 16:22:20.532  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+09-26 16:22:20.533  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+09-26 16:22:20.534  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabScreenViewManager
+09-26 16:22:20.535  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapManager
+09-26 16:22:20.536  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+09-26 16:22:20.536  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager
+09-26 16:22:20.538  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+09-26 16:22:20.539  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabsHostViewManager
+09-26 16:22:20.540  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapMarkerManager
+09-26 16:22:20.540  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapLocalTileManager
+09-26 16:22:20.541  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+09-26 16:22:20.541  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapPolylineManager
+09-26 16:22:20.542  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapCircleManager
+09-26 16:22:20.542  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+09-26 16:22:20.543  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+09-26 16:22:20.543  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+09-26 16:22:20.543  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+09-26 16:22:20.544  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapCalloutManager
+09-26 16:22:20.544  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+09-26 16:22:20.545  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+09-26 16:22:20.545  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapGradientPolylineManager
+09-26 16:22:20.545  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapHeatmapManager
+09-26 16:22:20.546  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapWMSTileManager
+09-26 16:22:20.547  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+09-26 16:22:20.548  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+09-26 16:22:20.549  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapPolygonManager
+09-26 16:22:20.550  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativepagerview.PagerViewViewManager
+09-26 16:22:20.550  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativegooglesignin.RNGoogleSigninButtonViewManager
+09-26 16:22:20.551  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+09-26 16:22:20.551  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapOverlayManager
+09-26 16:22:20.582  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+09-26 16:22:20.585  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+09-26 16:22:20.585  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+09-26 16:22:20.586  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+09-26 16:22:20.588  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+09-26 16:22:20.588  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+09-26 16:22:20.589  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+09-26 16:22:20.590  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+09-26 16:22:20.591  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+09-26 16:22:20.609  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+09-26 16:22:20.611  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+09-26 16:22:20.612  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+09-26 16:22:20.614  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+09-26 16:22:20.615  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+09-26 16:22:20.616  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+09-26 16:22:20.619  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+09-26 16:22:20.621  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+09-26 16:22:20.623  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+09-26 16:22:20.625  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+09-26 16:22:20.627  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+09-26 16:22:20.627  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+09-26 16:22:20.628  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+09-26 16:22:20.630  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+09-26 16:22:20.631  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+09-26 16:22:20.633  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+09-26 16:22:20.635  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+09-26 16:22:20.638  5817  5871 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+09-26 16:22:20.644  5817  5871 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+09-26 16:22:20.651  5817  5871 I ExpoModulesCore: ✅ JSI interop was installed
+09-26 16:22:20.664  5817  5871 I ExpoModulesCore: ✅ Constants were exported
+09-26 16:22:20.703  5817  5871 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/librnscreens.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes3.dex): ok
+09-26 16:22:20.710  5817  5871 I ReactNativeJS: Running "main"
+09-26 16:22:20.712  5817  5871 I NitroModules: Loading NitroModules C++ library...
+09-26 16:22:20.714  5817  5871 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libNitroModules.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes3.dex): ok
+09-26 16:22:20.714  5817  5871 I NitroModules: Successfully loaded NitroModules C++ library!
+09-26 16:22:20.721  5817  5871 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libworklets.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.766  5817  5871 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreanimated.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.842  5817  5887 I HWUI    : Using FreeType backend (prop=Auto)
+09-26 16:22:20.944  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:20.944  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:20.950  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:22:20.950  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:22:20.950  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:22:20.950  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:22:20.950  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:22:20.950  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:22:20.953  5817  5871 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libgesturehandler.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:20.953  5817  5871 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-26 16:22:20.953  5817  5871 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+09-26 16:22:20.953  5817  5871 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7845286afba0
+09-26 16:22:20.953  5817  5871 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78452878b530
+09-26 16:22:20.953  5817  5871 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78452879e0a0
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7845287c4fa0
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78452886ca50
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x7845288878c0
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78452888e150
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7845288ac450
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x784528957b80
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78452895fab0
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x784528967130
+09-26 16:22:20.954  5817  5871 D jni_lib_merge: About to register 11 actual methods.
+09-26 16:22:20.959  5817  5817 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{f5edaab V.E...... ......ID 0,0-1080,2400 #1}
+09-26 16:22:20.974  5817  5891 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libimagepipeline.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-26 16:22:21.288  5817  5817 D InsetsController: hide(ime())
+09-26 16:22:21.288  5817  5817 I ImeTracker: com.oualidsahnoun.intech:c9a173c5: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 16:22:25.231  5817  5922 D ProfileInstaller: Installing profile for com.oualidsahnoun.intech
+09-26 16:22:33.882  5817  5822 I dsahnoun.intech: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 67(4208KB) LOS objects, 49% free, 7144KB/13MB, paused 1.101ms,12.674ms total 35.896ms
+09-26 16:22:50.258  5817  5817 I Choreographer: Skipped 67 frames!  The application may be doing too much work on its main thread.
+09-26 16:22:50.338  5817  5896 I HWUI    : Davey! duration=1135ms; Flags=0, FrameTimelineVsyncId=27100, IntendedVsync=265248356890, Vsync=266365023512, InputEventId=-147732371, HandleInputStart=266378069708, AnimationStart=266378080343, PerformTraversalsStart=266379363321, DrawStart=266379505891, FrameDeadline=265265023556, FrameStartTime=266377855371, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=266365023512, SyncQueued=266379563900, SyncStart=266380006164, IssueDrawCommandsStart=266380292257, SwapBuffers=266381431696, FrameCompleted=266384367957, DequeueBufferDuration=4466, QueueBufferDuration=1034490, GpuCompleted=266384277707, SwapBuffersCompleted=266384367957, DisplayPresentTime=0, CommandSubmissionCompleted=266381431696, 
+09-26 16:22:50.338  5817  5872 W SoLoader: SoLoader already initialized
+09-26 16:22:50.338  5817  5872 W SoLoader: SoLoader already initialized
+09-26 16:22:50.339  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:50.339  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:50.387  5817  5817 I ActivityThread: Schedule relaunch activity: com.oualidsahnoun.intech.MainActivity
+09-26 16:22:50.453  5817  5817 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+09-26 16:22:50.453  5817  5817 W unknown:BridgelessReact: ReactContext.onHostPause()
+09-26 16:22:50.632  5817  5817 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+09-26 16:22:50.656  5817  5817 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+09-26 16:22:50.656  5817  5817 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+09-26 16:22:50.656  5817  5870 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+09-26 16:22:50.656  5817  5870 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+09-26 16:22:50.658  5817  5817 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+09-26 16:22:50.658  5817  5817 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-26 16:22:50.659  5817  5817 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+09-26 16:22:50.659  5817  5817 W unknown:BridgelessReact: ReactContext.onHostResume()
+09-26 16:22:50.669  5817  5871 I ReactNativeJS: Running "main"
+09-26 16:22:50.669  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:22:50.669  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:22:50.669  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:22:50.669  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:22:50.669  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:22:50.669  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:22:50.686  5817  5817 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Schedule
+09-26 16:22:50.686  5817  5817 W unknown:BridgelessReact: ReactHost{0}.detachSurface(surfaceId = 1)
+09-26 16:22:50.687  5817  5817 W unknown:BridgelessReact: ReactHost{0}.onHostDestroy(activity)
+09-26 16:22:50.687  5817  5817 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.RootViewManager
+09-26 16:22:50.689  5817  5870 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Execute
+09-26 16:22:50.689  5817  5870 E unknown:SurfaceMountingManager: Stopping surface [1]
+09-26 16:22:50.690  5817  5817 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.runtime.ReactSurfaceView{f5edaab V.E...... .......D 0,0-1080,2400 #1}
+09-26 16:22:50.690  5817  5817 E unknown:SurfaceMountingManager: Surface [1] was stopped on SurfaceMountingManager.
+09-26 16:22:50.702  5817  5817 E unknown:IntBufferBatchMountItem: Skipping batch of MountItems; was stopped [1].
+09-26 16:22:50.708  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:50.709  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:50.760  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:50.760  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:22:50.772  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:22:50.772  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:22:50.772  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:22:50.772  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:22:50.772  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:22:50.772  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:22:50.779  5817  5817 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{1aa8457 V.E...... .......D 0,0-1080,2400 #b}
+09-26 16:23:02.483  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:23:02.483  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:23:02.483  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:23:02.483  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:23:02.484  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:23:02.484  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:23:17.386  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:23:17.386  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:23:17.386  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:23:17.386  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:23:17.386  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:23:17.386  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:23:33.354  5817  6112 I WebViewFactory: Loading com.google.android.webview version 145.0.7632.218 (code 763221809)
+09-26 16:23:33.355  5817  6112 W ResourcesManager: Found a null ResourcesImpl, skipped.
+09-26 16:23:33.360  5817  6112 W ResourcesManager: Found a null ResourcesImpl, skipped.
+09-26 16:23:33.363  5817  6112 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=3c3b1b1f mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/WebViewGoogle.apk,/system/framework/android.test.base.jar,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v37 mCompatInfo={420dpi always-compat} mLoaders=[]}
+09-26 16:23:33.367  5817  6112 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-26 16:23:33.367  5817  6112 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-26 16:23:33.373  5817  6112 D nativeloader: Configuring clns-10 for other apk /data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/WebViewGoogle.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/lib/x86_64:/data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/WebViewGoogle.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+09-26 16:23:33.407  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:23:33.407  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:23:33.443  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:23:33.443  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:23:33.443  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:23:33.443  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:23:33.443  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:23:33.443  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:23:33.456  5817  6112 I cr_WVCFactoryProvider: version=145.0.7632.218 (763221809) minSdkVersion=29 multiprocess=true packageId=2 splits=<none>
+09-26 16:23:33.462  5817  6112 D nativeloader: Load /data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/WebViewGoogle.apk!/lib/x86_64/libwebviewchromium.so using class loader ns clns-10 (caller=/data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/WebViewGoogle.apk): ok
+09-26 16:23:33.469  5817  6112 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-10 (caller=/data/app/~~stwWuLS0fVupgjRhiEwTiQ==/com.google.android.webview-Ya19Dts6tGvQ7Mo94xEuCA==/WebViewGoogle.apk): ok
+09-26 16:23:33.491  5817  6118 I chromium: [0926/162333.483711:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+09-26 16:23:33.495  5817  6118 I chromium: [0926/162333.494635:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+09-26 16:23:33.582  5817  6112 I cr_LibraryLoader: Successfully loaded native library
+09-26 16:23:33.594  5817  6112 I cr_CachingUmaRecorder: Flushed 16 samples from 16 histograms, 0 samples were dropped.
+09-26 16:24:09.260  5817  5817 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+09-26 16:24:09.261  5817  5817 I ImeTracker: com.oualidsahnoun.intech:aa29f868: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+09-26 16:24:09.265  5817  5817 D InsetsController: show(ime())
+09-26 16:24:09.265  5817  5817 D InsetsController: Setting requestedVisibleTypes to 511 (was 503)
+09-26 16:24:09.282  5817  5817 I ImeTracker: com.oualidsahnoun.intech:649f2bb: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+09-26 16:24:09.282  5817  5817 D InsetsController: show(ime())
+09-26 16:24:09.282  5817  5817 I ImeTracker: com.oualidsahnoun.intech:649f2bb: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+09-26 16:24:09.412  5817  5817 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@dbdfd65
+09-26 16:24:10.121  5817  5817 W RemoteInputConnectionImpl: Session id mismatch header.sessionId: 0 currentSessionId: 1 while calling android.view.inputmethod.RemoteInputConnectionImpl.lambda$getSurroundingText$11:578
+09-26 16:24:10.165  5817  5817 D VRI[MainActivity]: WindowInsets changed: ime:[0,0,0,883] 
+09-26 16:24:10.173  5817  5817 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.oualidsahnoun.intech
+09-26 16:24:10.375  5817  5817 I ImeTracker: com.oualidsahnoun.intech:aa29f868: onShown
+09-26 16:24:10.653  5817  5817 I ImeTracker: com.oualidsahnoun.intech:e4f3f7a0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser true userId 0 displayId 0
+09-26 16:24:10.653  5817  5817 D InsetsController: hide(ime())
+09-26 16:24:10.653  5817  5817 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+09-26 16:24:10.654  5817  5817 D InsetsController: Setting requestedVisibleTypes to 503 (was 511)
+09-26 16:24:10.674  5817  5817 D VRI[MainActivity]: WindowInsets changed: ime:null 
+09-26 16:24:10.707  5817  5817 I ImeTracker: system_server:67e23ba3: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+09-26 16:24:11.465  5817  5822 W dsahnoun.intech: Cleared Reference was only reachable from finalizer (only reported once)
+09-26 16:24:11.488  5817  5822 I dsahnoun.intech: Background young concurrent mark compact GC freed 4935KB AllocSpace bytes, 17(848KB) LOS objects, 40% free, 8480KB/13MB, paused 370us,20.521ms total 54.571ms
+09-26 16:24:20.214  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:24:20.214  5817  5872 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-26 16:24:20.238  5817  5817 I ImeTracker: com.oualidsahnoun.intech:7f2e6638: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+09-26 16:24:20.238  5817  5817 D InsetsController: hide(ime())
+09-26 16:24:20.239  5817  5817 I ImeTracker: com.oualidsahnoun.intech:7f2e6638: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 16:24:20.239  5817  5817 D CompatChangeReporter: Compat change id reported: 395521150; UID 10230; state: ENABLED
+09-26 16:24:20.274  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:24:20.274  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:24:20.274  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:24:20.274  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:24:20.274  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:24:20.274  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:24:20.297  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:24:20.298  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:24:20.298  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:24:20.298  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:24:20.298  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:24:20.298  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:24:20.319  5817  5817 I ImeTracker: com.oualidsahnoun.intech:50400c21: onRequestHide at ORIGIN_CLIENT reason HIDE_CLOSE_CURRENT_SESSION fromUser false userId 0 displayId 0
+09-26 16:24:20.320  5817  5817 D InsetsController: hide(ime())
+09-26 16:24:20.321  5817  5817 I ImeTracker: com.oualidsahnoun.intech:50400c21: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 16:24:41.298  5817  5871 I ReactNativeJS: 'Error fetching unread notifications count:', [TypeError: Network request failed]
+09-26 16:24:49.657  5817  5822 I dsahnoun.intech: Background concurrent mark compact GC freed 4625KB AllocSpace bytes, 26(832KB) LOS objects, 49% free, 8912KB/17MB, paused 323us,8.551ms total 33.363ms
+09-26 16:24:58.817  5817  5817 W [RNScreens]: backTitleVisible prop is not available on Android
+09-26 16:24:58.817  5817  5817 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-26 16:24:58.817  5817  5817 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-26 16:24:58.817  5817  5817 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-26 16:24:58.817  5817  5817 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-26 16:24:58.817  5817  5817 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-26 16:25:03.008  5817  5881 I dsahnoun.intech: Explicit concurrent mark compact GC freed 2193KB AllocSpace bytes, 1(32KB) LOS objects, 49% free, 8904KB/17MB, paused 396us,11.659ms total 33.791ms

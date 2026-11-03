@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://clients3.google.com/generate_204",
+    "status": 204,
+    "seconds": 0.22,
+    "content_type": null
+  },
+  {
+    "url": "http://141.136.42.95:8000/api/shop/brands",
+    "status": 401,
+    "seconds": 0.14,
+    "content_type": "application/json"
+  }
+]

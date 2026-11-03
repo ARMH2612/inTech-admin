@@ -1,0 +1,488 @@
+--------- beginning of main
+09-27 17:55:20.067 27676 27676 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10230/pid_27676
+09-27 17:55:20.085 27676 27676 I Zygote  : Process 27676 created for com.oualidsahnoun.intech
+09-27 17:55:20.085 27676 27676 I dsahnoun.intech: Using generational CollectorTypeCMC GC.
+09-27 17:55:20.086 27676 27676 W dsahnoun.intech: Unexpected CPU variant for x86: x86_64.
+09-27 17:55:20.086 27676 27676 W dsahnoun.intech: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, pantherlake, default
+09-27 17:55:20.145 27676 27676 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-27 17:55:20.175 27676 27676 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+09-27 17:55:20.274 27676 27676 D nativeloader: Configuring clns-9 for other apk /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/lib/x86_64:/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.oualidsahnoun.intech
+09-27 17:55:20.289 27676 27676 V GraphicsEnvironment: Currently set values for:
+09-27 17:55:20.289 27676 27676 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-27 17:55:20.289 27676 27676 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-27 17:55:20.289 27676 27676 V GraphicsEnvironment: com.oualidsahnoun.intech is not listed in per-application setting
+09-27 17:55:20.289 27676 27676 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+09-27 17:55:20.334 27676 27676 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-27 17:55:20.774 27676 27676 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+09-27 17:55:20.808 27676 27676 I FirebaseInitProvider: FirebaseApp initialization successful
+09-27 17:55:20.862 27676 27676 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+09-27 17:55:20.945 27676 27676 D DesktopExperienceFlags: Toggle override initialized to: false
+09-27 17:55:20.974 27676 27676 W SoLoader: Initializing SoLoader: 0
+09-27 17:55:20.998 27676 27676 W SoLoader: Recording new base apk path: /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk
+09-27 17:55:20.998 27676 27676 W SoLoader: Previously recorded 0 base apk paths.
+09-27 17:55:21.005 27676 27676 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+09-27 17:55:21.005 27676 27676 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+09-27 17:55:21.006 27676 27676 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64]]
+09-27 17:55:21.010 27676 27676 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/lib/x86_64 flags = 0]]
+09-27 17:55:21.010 27676 27676 I SoLoader: init finish: 4 SO sources prepared
+09-27 17:55:21.010 27676 27676 W SoLoader: SoLoader initialized: 8
+09-27 17:55:21.074 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libc++_shared.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.151 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libjsi.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.172 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libfbjni.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.342 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreactnative.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x78452a0afba0
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78452a18b530
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78452a19e0a0
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x78452a1c4fa0
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78452a26ca50
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78452a2878c0
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78452a28e150
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x78452a2ac450
+09-27 17:55:21.344 27676 27676 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78452a357b80
+09-27 17:55:21.345 27676 27676 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78452a35fab0
+09-27 17:55:21.345 27676 27676 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78452a367130
+09-27 17:55:21.345 27676 27676 D jni_lib_merge: About to register 11 actual methods.
+09-27 17:55:21.386 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreact_codegen_rnscreens.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x78452a0afba0
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78452a18b530
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78452a19e0a0
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x78452a1c4fa0
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78452a26ca50
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78452a2878c0
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78452a28e150
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x78452a2ac450
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78452a357b80
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78452a35fab0
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78452a367130
+09-27 17:55:21.386 27676 27676 D jni_lib_merge: About to register 11 actual methods.
+09-27 17:55:21.397 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreact_codegen_RNCSlider.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.411 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreact_codegen_safeareacontext.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.451 27676 27676 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libappmodules.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.464 27676 27676 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+--------- beginning of system
+09-27 17:55:21.468 27676 27711 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+09-27 17:55:21.533 27676 27711 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+09-27 17:55:21.538 27676 27711 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+09-27 17:55:21.545 27676 27711 W libc    : Access denied finding property "vendor.mesa.virtgpu.kumquat"
+09-27 17:55:21.556 27676 27676 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-27 17:55:21.565 27676 27711 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-27 17:55:21.565 27676 27711 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-27 17:55:21.629 27676 27676 D CompatChangeReporter: Compat change id reported: 377864165; UID 10230; state: ENABLED
+09-27 17:55:21.751 27676 27676 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+09-27 17:55:21.752 27676 27676 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+09-27 17:55:21.751 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+09-27 17:55:21.751 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+09-27 17:55:21.752 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+09-27 17:55:21.754 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+09-27 17:55:21.755 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+09-27 17:55:21.765 27676 27676 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+09-27 17:55:21.765 27676 27676 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-27 17:55:21.777 27676 27676 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+09-27 17:55:21.777 27676 27676 W unknown:BridgelessReact: ReactContext.onHostResume()
+09-27 17:55:21.782 27676 27676 W HWUI    : Unknown dataspace 0
+09-27 17:55:21.817 27676 27718 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libhermes.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.825 27676 27676 D VRI[MainActivity]: WindowInsets changed: 1080x2400 statusBars:[0,132,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,164,0,84] 
+09-27 17:55:21.827 27676 27718 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libhermestooling.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:21.827 27676 27718 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-27 17:55:21.827 27676 27718 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+09-27 17:55:21.827 27676 27718 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x7845fba1e730
+09-27 17:55:21.827 27676 27718 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x7845fba25db0
+09-27 17:55:21.827 27676 27718 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x7845fba26540
+09-27 17:55:21.827 27676 27718 D jni_lib_merge: About to register 3 actual methods.
+09-27 17:55:21.840 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@ed8e172
+09-27 17:55:21.855 27676 27676 I Surface : Creating surface for consumer unnamed-27676-0 with slotExpansion=1 for 64 slots
+09-27 17:55:21.858 27676 27676 I Surface : Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+09-27 17:55:21.863 27676 27722 W libc    : Access denied finding property "vendor.mesa.virtgpu.kumquat"
+09-27 17:55:22.027 27676 27718 I NitroMmkvOnLoad: Loading NitroMmkv C++ library...
+09-27 17:55:22.128 27676 27718 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libNitroMmkv.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes3.dex): ok
+09-27 17:55:22.131 27676 27718 I NitroMmkvOnLoad: Successfully loaded NitroMmkv C++ library!
+09-27 17:55:22.250 27676 27718 I ExpoModulesCore: ✅ AppContext was initialized
+09-27 17:55:22.303 27676 27732 I HWUI    : Using FreeType backend (prop=Auto)
+09-27 17:55:22.369 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+09-27 17:55:22.370 27676 27718 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+09-27 17:55:22.371 27676 27718 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+09-27 17:55:22.412 27676 27676 W unknown:BridgelessReact: ReactContext.onHostResume()
+09-27 17:55:22.412 27676 27676 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+09-27 17:55:22.588 27676 27719 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libexpo-modules-core.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:22.645 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapUrlTileManager
+09-27 17:55:22.651 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+09-27 17:55:22.652 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+09-27 17:55:22.653 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabScreenViewManager
+09-27 17:55:22.654 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapManager
+09-27 17:55:22.655 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+09-27 17:55:22.655 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager
+09-27 17:55:22.656 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+09-27 17:55:22.660 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabsHostViewManager
+09-27 17:55:22.661 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapMarkerManager
+09-27 17:55:22.662 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapLocalTileManager
+09-27 17:55:22.663 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+09-27 17:55:22.663 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapPolylineManager
+09-27 17:55:22.663 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapCircleManager
+09-27 17:55:22.664 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+09-27 17:55:22.666 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+09-27 17:55:22.666 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+09-27 17:55:22.666 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+09-27 17:55:22.666 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapCalloutManager
+09-27 17:55:22.667 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+09-27 17:55:22.667 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+09-27 17:55:22.667 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapGradientPolylineManager
+09-27 17:55:22.668 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapHeatmapManager
+09-27 17:55:22.668 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapWMSTileManager
+09-27 17:55:22.669 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+09-27 17:55:22.669 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+09-27 17:55:22.669 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapPolygonManager
+09-27 17:55:22.669 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativepagerview.PagerViewViewManager
+09-27 17:55:22.669 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativegooglesignin.RNGoogleSigninButtonViewManager
+09-27 17:55:22.670 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+09-27 17:55:22.670 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.rnmaps.maps.MapOverlayManager
+09-27 17:55:22.686 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+09-27 17:55:22.688 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+09-27 17:55:22.688 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+09-27 17:55:22.690 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+09-27 17:55:22.692 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+09-27 17:55:22.693 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+09-27 17:55:22.694 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+09-27 17:55:22.694 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+09-27 17:55:22.696 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+09-27 17:55:22.700 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+09-27 17:55:22.702 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+09-27 17:55:22.702 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+09-27 17:55:22.703 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+09-27 17:55:22.704 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+09-27 17:55:22.708 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+09-27 17:55:22.710 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+09-27 17:55:22.712 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+09-27 17:55:22.713 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+09-27 17:55:22.713 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+09-27 17:55:22.714 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+09-27 17:55:22.714 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+09-27 17:55:22.715 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+09-27 17:55:22.717 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+09-27 17:55:22.717 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+09-27 17:55:22.718 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+09-27 17:55:22.719 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+09-27 17:55:22.721 27676 27719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+09-27 17:55:22.748 27676 27719 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+09-27 17:55:22.809 27676 27719 I ExpoModulesCore: ✅ JSI interop was installed
+09-27 17:55:22.840 27676 27719 I ExpoModulesCore: ✅ Constants were exported
+09-27 17:55:22.952 27676 27719 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/librnscreens.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes3.dex): ok
+09-27 17:55:22.974 27676 27719 I ReactNativeJS: Running "main"
+09-27 17:55:22.995 27676 27719 I NitroModules: Loading NitroModules C++ library...
+09-27 17:55:22.996 27676 27719 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libNitroModules.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes3.dex): ok
+09-27 17:55:23.000 27676 27719 I NitroModules: Successfully loaded NitroModules C++ library!
+09-27 17:55:23.060 27676 27719 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libworklets.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:23.248 27676 27719 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libreanimated.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:23.574 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:55:23.574 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:55:23.580 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:55:23.580 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:55:23.580 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:55:23.580 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:55:23.580 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:55:23.580 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:55:23.586 27676 27676 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{43b72a8 V.E...... ......ID 0,0-1080,2400 #1}
+09-27 17:55:23.600 27676 27719 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libgesturehandler.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x78452a0afba0
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78452a18b530
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78452a19e0a0
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x78452a1c4fa0
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78452a26ca50
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78452a2878c0
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78452a28e150
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x78452a2ac450
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78452a357b80
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78452a35fab0
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78452a367130
+09-27 17:55:23.600 27676 27719 D jni_lib_merge: About to register 11 actual methods.
+09-27 17:55:23.603 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:55:23.603 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:55:23.614 27676 27771 I WebViewFactory: Loading com.google.android.webview version 153.0.8010.36 (code 801003608)
+09-27 17:55:23.617 27676 27771 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=4ecfd46a mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/base.apk,/system/framework/android.test.base.jar,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v37 mCompatInfo={420dpi always-compat} mLoaders=[]}
+09-27 17:55:23.619 27676 27771 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-27 17:55:23.619 27676 27771 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-27 17:55:23.620 27676 27772 D nativeloader: Load /data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!/lib/x86_64/libimagepipeline.so using class loader ns clns-9 (caller=/data/app/~~hasYG4JR6exs-U6oWD2fQg==/com.oualidsahnoun.intech-wn_c7-3hkKOOkCXS1zFlgQ==/base.apk!classes2.dex): ok
+09-27 17:55:23.629 27676 27676 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.runtime.ReactSurfaceView{43b72a8 V.E...... ......ID 0,0-1080,2400 #1}
+09-27 17:55:23.633 27676 27771 D nativeloader: Configuring clns-10 for other apk /data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/lib/x86_64:/data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+09-27 17:55:23.719 27676 27771 I cr_WVCFactoryProvider: version=153.0.8010.36 (801003608) minSdkVersion=29 multiprocess=true packageId=2 splits=<none>
+09-27 17:55:23.723 27676 27771 D nativeloader: Load /data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/base.apk!/lib/x86_64/libwebviewchromium.so using class loader ns clns-10 (caller=/data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/base.apk): ok
+09-27 17:55:23.728 27676 27771 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-10 (caller=/data/app/~~C0nAPSHyM-Y17vrxtOfEFA==/com.google.android.webview-fpze0hmqxzcnLohDVSxwqg==/base.apk): ok
+09-27 17:55:23.730 27676 27777 I chromium: [0927/175523.730627:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+09-27 17:55:23.731 27676 27777 I chromium: [0927/175523.731002:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+09-27 17:55:23.782 27676 27771 I cr_LibraryLoader: Successfully loaded native library
+09-27 17:55:23.782 27676 27771 I cr_CachingUmaRecorder: Flushed 37 samples from 19 histograms, 0 samples were dropped.
+09-27 17:55:23.816 27676 27676 D InsetsController: hide(ime())
+09-27 17:55:23.816 27676 27676 I ImeTracker: com.oualidsahnoun.intech:a66d983b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 17:55:24.659 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:55:24.659 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:55:24.716 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:55:24.716 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:55:24.716 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:55:24.716 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:55:24.716 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:55:24.716 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:55:24.742 27676 27676 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{43b72a8 V.E...... .......D 0,0-1080,2400 #1}
+09-27 17:55:26.953 27676 27838 D ProfileInstaller: Skipping profile installation for com.oualidsahnoun.intech
+09-27 17:55:36.134 27676 27680 I dsahnoun.intech: Background concurrent mark compact GC freed 9904KB AllocSpace bytes, 65(3872KB) LOS objects, 49% free, 5772KB/11MB, paused 887us,24.686ms total 90.538ms
+09-27 17:55:57.570 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:55:57.570 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:55:57.570 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:55:57.570 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:55:57.570 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:55:57.570 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:56:21.227 27676 27680 W dsahnoun.intech: Cleared Reference was only reachable from finalizer (only reported once)
+09-27 17:56:21.237 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 4481KB AllocSpace bytes, 18(576KB) LOS objects, 43% free, 6548KB/11MB, paused 315us,7.559ms total 34.222ms
+09-27 17:56:31.160 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:56:31.161 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:56:31.174 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:56:31.174 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:56:31.174 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:56:31.174 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:56:31.174 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:56:31.174 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:56:31.182 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:56:31.182 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:56:31.182 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:56:31.182 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:56:31.182 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:56:31.182 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:56:41.166 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:56:41.166 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:56:41.168 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:56:41.168 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:56:41.168 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:56:41.168 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:56:41.168 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:56:41.168 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:56:49.508 27676 27676 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+09-27 17:56:49.509 27676 27676 I ImeTracker: com.oualidsahnoun.intech:be656200: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+09-27 17:56:49.514 27676 27676 D InsetsController: show(ime())
+09-27 17:56:49.514 27676 27676 D InsetsController: Setting requestedVisibleTypes to 511 (was 503)
+09-27 17:56:49.541 27676 27676 I ImeTracker: com.oualidsahnoun.intech:7ab99547: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+09-27 17:56:49.541 27676 27676 D InsetsController: show(ime())
+09-27 17:56:49.541 27676 27676 I ImeTracker: com.oualidsahnoun.intech:7ab99547: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+09-27 17:56:50.077 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@9a6405a
+09-27 17:56:50.631 27676 27676 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.oualidsahnoun.intech
+09-27 17:56:50.829 27676 27676 I ImeTracker: com.oualidsahnoun.intech:be656200: onShown
+09-27 17:56:51.045 27676 27676 W RemoteInputConnectionImpl: Session id mismatch header.sessionId: 0 currentSessionId: 1 while calling android.view.inputmethod.RemoteInputConnectionImpl.lambda$getSurroundingText$11:578
+09-27 17:56:51.680 27676 27676 I ImeTracker: com.oualidsahnoun.intech:44a3f259: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser true userId 0 displayId 0
+09-27 17:56:51.680 27676 27676 D InsetsController: hide(ime())
+09-27 17:56:51.680 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@ed8e172
+09-27 17:56:51.681 27676 27676 D InsetsController: Setting requestedVisibleTypes to 503 (was 511)
+09-27 17:56:51.841 27676 27676 I ImeTracker: system_server:9a8e3dd8: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+09-27 17:57:06.432 27676 27676 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+09-27 17:57:06.432 27676 27676 I ImeTracker: com.oualidsahnoun.intech:20e02a62: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+09-27 17:57:06.432 27676 27676 D InsetsController: show(ime())
+09-27 17:57:06.432 27676 27676 D InsetsController: Setting requestedVisibleTypes to 511 (was 503)
+09-27 17:57:06.470 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@9a6405a
+09-27 17:57:06.712 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@5d10d00
+09-27 17:57:06.727 27676 27676 I Surface : Creating surface for consumer unnamed-27676-1 with slotExpansion=1 for 64 slots
+09-27 17:57:06.728 27676 27676 I Surface : Creating surface for consumer VRI[PopupWindow:e68cb94]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+09-27 17:57:06.858 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+09-27 17:57:07.023 27676 27676 I ImeTracker: com.oualidsahnoun.intech:20e02a62: onShown
+09-27 17:57:08.738 27676 27676 I ImeTracker: com.oualidsahnoun.intech:6f2afa47: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser true userId 0 displayId 0
+09-27 17:57:08.738 27676 27676 D InsetsController: hide(ime())
+09-27 17:57:08.738 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@ed8e172
+09-27 17:57:08.738 27676 27676 D InsetsController: Setting requestedVisibleTypes to 503 (was 511)
+09-27 17:57:08.791 27676 27676 I ImeTracker: system_server:ed5915cd: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+09-27 17:57:20.973 27676 27676 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+09-27 17:57:20.973 27676 27676 I ImeTracker: com.oualidsahnoun.intech:4edb6e95: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true userId 0 displayId 0
+09-27 17:57:20.974 27676 27676 D InsetsController: show(ime())
+09-27 17:57:20.974 27676 27676 D InsetsController: Setting requestedVisibleTypes to 511 (was 503)
+09-27 17:57:21.033 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@9a6405a
+09-27 17:57:21.239 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@2cccdb6
+09-27 17:57:21.262 27676 27676 I Surface : Creating surface for consumer unnamed-27676-2 with slotExpansion=1 for 64 slots
+09-27 17:57:21.263 27676 27676 I Surface : Creating surface for consumer VRI[PopupWindow:5d6ccea]#2(BLAST Consumer)2 with slotExpansion=1 for 64 slots
+09-27 17:57:21.586 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+09-27 17:57:21.800 27676 27676 I ImeTracker: com.oualidsahnoun.intech:4edb6e95: onShown
+09-27 17:58:02.330 27676 27680 I dsahnoun.intech: Background concurrent mark compact GC freed 4780KB AllocSpace bytes, 9(288KB) LOS objects, 49% free, 6381KB/12MB, paused 497us,11.382ms total 40.471ms
+09-27 17:58:02.484 27676 27676 I ImeTracker: com.oualidsahnoun.intech:bc1bdd30: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser true userId 0 displayId 0
+09-27 17:58:02.484 27676 27676 D InsetsController: hide(ime())
+09-27 17:58:02.484 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@ed8e172
+09-27 17:58:02.484 27676 27676 D InsetsController: Setting requestedVisibleTypes to 503 (was 511)
+09-27 17:58:02.516 27676 27676 I ImeTracker: system_server:6eef18ec: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+09-27 17:58:31.612 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:58:31.612 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 17:58:31.680 27676 27676 I ImeTracker: com.oualidsahnoun.intech:dd7df0d7: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+09-27 17:58:31.680 27676 27676 D InsetsController: hide(ime())
+09-27 17:58:31.680 27676 27676 I ImeTracker: com.oualidsahnoun.intech:dd7df0d7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 17:58:31.680 27676 27676 D CompatChangeReporter: Compat change id reported: 395521150; UID 10230; state: ENABLED
+09-27 17:58:31.703 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:58:31.703 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:58:31.703 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:58:31.703 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:58:31.703 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:58:31.703 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:58:31.706 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:58:31.706 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:58:31.706 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:58:31.706 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:58:31.706 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:58:31.706 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:58:32.275 27676 27676 I ImeTracker: com.oualidsahnoun.intech:975a522f: onRequestHide at ORIGIN_CLIENT reason HIDE_CLOSE_CURRENT_SESSION fromUser false userId 0 displayId 0
+09-27 17:58:32.275 27676 27676 D InsetsController: hide(ime())
+09-27 17:58:32.275 27676 27676 I ImeTracker: com.oualidsahnoun.intech:975a522f: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 17:58:32.431 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:58:32.971 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 5272KB AllocSpace bytes, 8(384KB) LOS objects, 39% free, 7678KB/12MB, paused 458us,5.705ms total 36.491ms
+09-27 17:58:32.999 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:58:37.600 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:58:40.272 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:58:40.272 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:58:40.272 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:58:40.272 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:58:40.272 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:58:40.272 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:58:42.714 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:58:47.334 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:58:52.515 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:58:55.690 27676 27680 I dsahnoun.intech: Background concurrent mark compact GC freed 3456KB AllocSpace bytes, 10(1216KB) LOS objects, 49% free, 7518KB/14MB, paused 202us,5.515ms total 30.114ms
+09-27 17:58:57.665 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:02.107 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:03.606 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:59:03.607 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:59:03.607 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:59:03.607 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:59:03.607 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:59:03.607 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:59:07.696 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:11.846 27676 27719 I ReactNativeJS: Please upload the selected file
+09-27 17:59:11.894 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@e4f625e
+09-27 17:59:11.908 27676 27676 I Surface : Creating surface for consumer unnamed-27676-3 with slotExpansion=1 for 64 slots
+09-27 17:59:11.908 27676 27676 I Surface : Creating surface for consumer VRI[MainActivity]#3(BLAST Consumer)3 with slotExpansion=1 for 64 slots
+09-27 17:59:12.812 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:17.413 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:21.372 27676 27676 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+09-27 17:59:21.386 27676 27711 D HWUI    : endAllActiveAnimators on 0x7846545e1d30 (RippleDrawable) with handle 0x7846d44be6f0
+09-27 17:59:21.424 27676 27676 D InsetsController: hide(ime())
+09-27 17:59:21.424 27676 27676 I ImeTracker: com.oualidsahnoun.intech:dbb606f9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 17:59:21.426 27676 27676 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+09-27 17:59:22.531 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:27.667 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:31.913 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:59:31.913 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:59:31.913 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:59:31.913 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:59:31.913 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:59:31.913 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:59:31.952 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 4396KB AllocSpace bytes, 21(2208KB) LOS objects, 41% free, 8815KB/14MB, paused 839us,7.003ms total 27.803ms
+09-27 17:59:32.878 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:37.481 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:42.583 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:47.662 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:49.445 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 17:59:49.445 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 17:59:49.445 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 17:59:49.445 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 17:59:49.445 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 17:59:49.445 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 17:59:52.797 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 17:59:57.912 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:01.111 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:00:01.112 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:00:01.112 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:00:01.112 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:00:01.112 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:00:01.112 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:00:01.170 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 3920KB AllocSpace bytes, 8(1280KB) LOS objects, 35% free, 9632KB/14MB, paused 689us,26.235ms total 45.572ms
+09-27 18:00:01.890 27676 27676 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+09-27 18:00:02.192 27676 27795 I HWUI    : Davey! duration=814ms; Flags=0, FrameTimelineVsyncId=8657615, IntendedVsync=71133178855506, Vsync=71133728855484, InputEventId=0, HandleInputStart=71133762537117, AnimationStart=71133762542854, PerformTraversalsStart=71133764551487, DrawStart=71133764749782, FrameDeadline=71133862188812, FrameStartTime=71133759668888, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=71133728855484, SyncQueued=71133774886547, SyncStart=71133833042342, IssueDrawCommandsStart=71133843858870, SwapBuffers=71134023191910, FrameCompleted=71134051311345, DequeueBufferDuration=7637, QueueBufferDuration=657002, GpuCompleted=71134051311345, SwapBuffersCompleted=71134026986400, DisplayPresentTime=0, CommandSubmissionCompleted=71134023191910, 
+09-27 18:00:02.994 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:07.615 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:13.131 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:17.733 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:23.430 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:24.500 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 3536KB AllocSpace bytes, 9(1184KB) LOS objects, 30% free, 10MB/14MB, paused 374us,7.750ms total 28.715ms
+09-27 18:00:28.028 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:33.184 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:37.812 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:42.929 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:48.115 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:53.249 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:57.915 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:00:58.573 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 3168KB AllocSpace bytes, 8(896KB) LOS objects, 21% free, 11MB/14MB, paused 554us,20.671ms total 54.394ms
+09-27 18:01:02.998 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:06.502 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:01:06.502 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:01:06.502 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:01:06.502 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:01:06.502 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:01:06.502 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:01:08.147 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:08.176 27676 27680 I dsahnoun.intech: Background concurrent mark compact GC freed 3635KB AllocSpace bytes, 21(2976KB) LOS objects, 49% free, 8111KB/15MB, paused 234us,9.588ms total 28.932ms
+09-27 18:01:13.283 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:14.801 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:01:14.801 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:01:14.801 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:01:14.801 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:01:14.801 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:01:14.801 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:01:15.881 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:18.003 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:20.601 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:23.165 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:25.818 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:28.636 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:30.963 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:01:30.963 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:01:30.963 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:01:30.963 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:01:30.963 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:01:30.963 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:01:31.128 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 5520KB AllocSpace bytes, 13(1952KB) LOS objects, 45% free, 8864KB/15MB, paused 1.214ms,21.611ms total 95.939ms
+09-27 18:01:31.814 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:33.046 27676 27680 I dsahnoun.intech: Background concurrent mark compact GC freed 1285KB AllocSpace bytes, 2(320KB) LOS objects, 49% free, 8543KB/16MB, paused 285us,12.793ms total 31.502ms
+09-27 18:01:33.314 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:36.948 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:37.981 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:41.646 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:43.198 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:46.384 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:01:46.384 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:01:46.384 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:01:46.384 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:01:46.384 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:01:46.384 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:01:48.332 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:53.465 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:01:55.445 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:01:55.445 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:01:55.445 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:01:55.445 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:01:55.445 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:01:55.445 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:01:56.354 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 5673KB AllocSpace bytes, 16(2304KB) LOS objects, 46% free, 9136KB/16MB, paused 365us,7.438ms total 20.547ms
+09-27 18:01:58.295 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:03.412 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:08.029 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:13.180 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:18.297 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:23.418 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:28.550 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:33.184 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:38.316 27676 27719 I ReactNativeJS: 'ERROR: ', [SyntaxError: JSON Parse error: Unexpected character: <]
+09-27 18:02:38.338 27676 27680 I dsahnoun.intech: Background young concurrent mark compact GC freed 4928KB AllocSpace bytes, 16(2304KB) LOS objects, 41% free, 9936KB/16MB, paused 247us,7.466ms total 23.371ms
+09-27 18:02:39.163 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:02:39.163 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:02:39.163 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:02:39.163 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:02:39.163 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:02:39.163 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:02:39.188 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 18:02:39.188 27676 27720 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+09-27 18:02:39.198 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:02:39.198 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:02:39.198 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:02:39.198 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:02:39.198 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:02:39.198 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+09-27 18:02:51.862 27676 27676 W [RNScreens]: backTitleVisible prop is not available on Android
+09-27 18:02:51.862 27676 27676 W [RNScreens]: backTitleFontFamily prop is not available on Android
+09-27 18:02:51.862 27676 27676 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+09-27 18:02:51.862 27676 27676 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+09-27 18:02:51.862 27676 27676 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+09-27 18:02:51.862 27676 27676 W [RNScreens]: largeTitleHideShadow prop is not available on Android
