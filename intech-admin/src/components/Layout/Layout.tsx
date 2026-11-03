@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import { RefreshCw, X } from "lucide-react";
+import { X } from "lucide-react";
 import { NotificationsPanel } from "../NotificationsPanel";
 import { Sidebar } from "../Sidebar";
-import { Status } from "../Status";
 import { Topbar } from "../Topbar";
 import { RequestDetails } from "../../pages/Requests/components/RequestDetails";
 import {
@@ -159,8 +158,8 @@ export function DashboardLayout() {
           >
             <div className="drawer-head">
               <div>
-                <span className="eyebrow">DOSSIER DE SERVICE</span>
-                <h2>{selected.id}</h2>
+                <span className="eyebrow">DOSSIER SAV</span>
+                <p className="request-drawer-subtitle">{selected.device} · {selected.kind}</p>
               </div>
               <button
                 className="icon-button"
@@ -170,23 +169,13 @@ export function DashboardLayout() {
                 <X size={20} />
               </button>
             </div>
-            <Status>{selected.status}</Status>
-            <div className="drawer-device">
-              <span className="device-glyph">
-                <RefreshCw size={22} />
-              </span>
-              <div>
-                <b>{selected.device}</b>
-                <small>
-                  {selected.model} · {selected.kind}
-                </small>
-              </div>
-            </div>
             <RequestDetails
               base={session.base}
               token={session.token}
               id={selected.apiId}
               selected={selected}
+              canAssign={hasPermission(sessionUser, "assignments")}
+              onGoAssign={() => go("Assignation")}
             />
           </section>
         </div>

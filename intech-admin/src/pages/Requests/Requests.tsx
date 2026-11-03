@@ -1,8 +1,15 @@
+import { useState } from 'react';
 import { CustomTable } from '../../components';
 import { useApiMutations, usePageData } from '../../hooks';
+import { hasPermission } from '../../lib/access';
+import { AssignTechnicianDrawer } from './components';
+import type { ApiRecord, ApiRow } from '../../types';
 import type { ScreenPageProps } from '../../types/page';
 export function Requests(props: ScreenPageProps) {
   const data = usePageData({ ...props, page: 'Demandes' });
+  const [assigningRow, setAssigningRow] = useState<ApiRow | null>(null);
+  const [assignNotice, setAssignNotice] = useState('');
+  const canDispatch = hasPermission(props.user, 'assignments');
   const actions = useApiMutations({ base: props.base, token: props.token, title: 'demande', refresh: data.refresh,
     create: { method: 'POST', path: '/admin/requests', fields: [
       { name: 'client_id', label: 'ID client', type: 'number', required: true, min: 1 },
@@ -16,10 +23,17 @@ export function Requests(props: ScreenPageProps) {
   const columns = [
     { key: 'Référence', label: 'RÉFÉRENCE' }, { key: 'Client', label: 'CLIENT' },
     { key: 'Téléphone', label: 'TÉLÉPHONE' }, { key: 'Appareil', label: 'APPAREIL' },
-    { key: 'Type', label: 'SERVICE' }, { key: 'Statut', label: 'STATUT', status: true },
+    { key: 'Type', label: 'SERVICE', pill: true }, { key: 'Statut', label: 'STATUT', status: true },
     { key: 'Technicien', label: 'TECHNICIEN' }, { key: 'Créée', label: 'CRÉÉE LE' },
   ];
-  return <>{actions.drawer}<CustomTable columns={columns} rows={data.visibleRows} total={data.meta?.total} loading={data.loading} error={data.error} onRefresh={data.refresh} onSelect={props.onSelect} onCreate={actions.create} onEdit={actions.edit} editLabel="Annuler la demande" notice={actions.notice} emptyMessage="Aucune demande de service." /></>;
+  function canAssign(row: ApiRow) {
+    try {
+      const request = row._raw ? JSON.parse(row._raw) as ApiRecord : {};
+      const child = request.ac_request || request.domicile_request;
+      return Boolean(child?.id && (!child.technician_id || ['pending', 'rejected'].includes(String(child.assignment_status).toLowerCase())) && !['completed', 'cancelled'].includes(String(child.status).toLowerCase()));
+    } catch { return false; }
+  }
+  return <>{actions.drawer}{assigningRow && <AssignTechnicianDrawer base={props.base} token={props.token} row={assigningRow} onClose={() => setAssigningRow(null)} onAssigned={() => { setAssigningRow(null); setAssignNotice('Demande proposée au technicien. Il doit encore accepter.'); data.refresh(); window.setTimeout(() => setAssignNotice(''), 4500); }} />}<CustomTable columns={columns} rows={data.visibleRows} total={data.meta?.total} loading={data.loading} error={data.error} onRefresh={data.refresh} onSelect={props.onSelect} rowClick={false} onCreate={actions.create} onEdit={actions.edit} canEdit={row => !['Completed', 'Cancelled', 'Terminée', 'Annulée'].includes(String(row.Statut))} editLabel="Annuler la demande" viewLabel="Voir les détails et le statut" rowActions={row => canDispatch && canAssign(row) ? <button type="button" className="button subtle table-inline-action" onClick={() => setAssigningRow(row)}>{row.Technicien && row.Technicien !== 'Non assigné' ? 'Réassigner' : 'Assigner à un technicien'}</button> : null} notice={actions.notice || assignNotice} emptyMessage="Aucune demande de service." /></>;
 }
 
 

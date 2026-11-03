@@ -10,7 +10,7 @@ export function Assignments(props: ScreenPageProps) {
     { key: "Référence", label: "RÉFÉRENCE" },
     { key: "Client", label: "CLIENT" },
     { key: "Appareil", label: "APPAREIL" },
-    { key: "Type", label: "SERVICE" },
+    { key: "Type", label: "SERVICE", pill: true },
     { key: "Statut", label: "STATUT", status: true },
     { key: "Technicien", label: "TECHNICIEN" },
     { key: "File", label: "FILE" },
@@ -29,6 +29,7 @@ export function Assignments(props: ScreenPageProps) {
       notice={actions.notice || unassign.notice}
       rowActions={row => row.File === 'Réponse attendue' ? <button type="button" className="button subtle table-inline-action" onClick={() => unassign.edit?.(row)}>Retirer l’assignation</button> : null}
       onSelect={props.onSelect}
+      rowClick={false}
       emptyMessage="Aucune demande en attente d’assignation."
     />
     {actions.drawer}

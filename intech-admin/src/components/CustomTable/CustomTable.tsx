@@ -1,5 +1,6 @@
-import { useEffect, useState, type ReactNode } from "react";
-import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Pencil, Plus, RefreshCw, Trash2 } from "lucide-react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { createPortal } from 'react-dom';
+import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Eye, MoreHorizontal, Pencil, Plus, RefreshCw, Trash2 } from "lucide-react";
 import { Status } from "../Status";
 import type { ApiRow } from "../../types";
 
@@ -7,6 +8,7 @@ export interface TableColumn {
   key: keyof ApiRow | string;
   label: string;
   status?: boolean;
+  pill?: boolean;
 }
 
 interface CustomTableProps {
@@ -15,6 +17,7 @@ interface CustomTableProps {
   total?: number;
   onRefresh: () => void;
   onSelect?: (row: ApiRow) => void;
+  rowClick?: boolean;
   loading?: boolean;
   error?: string;
   emptyMessage?: string;
@@ -24,6 +27,7 @@ interface CustomTableProps {
   notice?: string;
   mutationError?: string;
   editLabel?: string;
+  viewLabel?: string;
   rowActions?: (row: ApiRow) => ReactNode;
   canEdit?: (row: ApiRow) => boolean;
   canDelete?: (row: ApiRow) => boolean;
@@ -35,6 +39,7 @@ export function CustomTable({
   total,
   onRefresh,
   onSelect,
+  rowClick = true,
   loading = false,
   error = "",
   emptyMessage = "Aucun élément trouvé.",
@@ -44,12 +49,17 @@ export function CustomTable({
   notice,
   mutationError,
   editLabel = 'Modifier',
+  viewLabel = 'Voir les détails et le statut',
   rowActions,
   canEdit,
   canDelete,
 }: CustomTableProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
+  const [activeMenu, setActiveMenu] = useState<string | number | null>(null);
+  const activeMenuRef = useRef<HTMLDivElement>(null);
+  const activeTriggerRef = useRef<HTMLButtonElement>(null);
+  const [menuPosition, setMenuPosition] = useState<{ top: number; left: number }>({ top: 0, left: 0 });
   const pageCount = Math.max(1, Math.ceil(rows.length / pageSize));
   const visiblePage = Math.min(currentPage, pageCount);
   const startIndex = (visiblePage - 1) * pageSize;
@@ -58,6 +68,20 @@ export function CustomTable({
   useEffect(() => {
     setCurrentPage(1);
   }, [rows]);
+
+  useEffect(() => {
+    if (activeMenu === null) return;
+    const closeOutside = (event: PointerEvent) => {
+      if (!activeMenuRef.current?.contains(event.target as Node) && !activeTriggerRef.current?.contains(event.target as Node)) setActiveMenu(null);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => { if (event.key === 'Escape') setActiveMenu(null); };
+    const closeOnScroll = () => setActiveMenu(null);
+    document.addEventListener('pointerdown', closeOutside);
+    document.addEventListener('keydown', closeOnEscape);
+    document.addEventListener('scroll', closeOnScroll, true);
+    window.addEventListener('resize', closeOnScroll);
+    return () => { document.removeEventListener('pointerdown', closeOutside); document.removeEventListener('keydown', closeOnEscape); document.removeEventListener('scroll', closeOnScroll, true); window.removeEventListener('resize', closeOnScroll); };
+  }, [activeMenu]);
 
   if (loading)
     return (
@@ -79,7 +103,7 @@ export function CustomTable({
       </div>
     );
   return (
-    <section className="panel data-table-panel">
+    <section className={`panel data-table-panel ${onSelect && rowClick ? 'is-row-clickable' : ''}`}>
       <div className="data-table-toolbar">
         <p>{total ?? rows.length} résultat(s)</p>
         <div className="data-table-actions">
@@ -101,10 +125,18 @@ export function CustomTable({
               </tr>
             </thead>
             <tbody>
-              {pageRows.map((row, index) => (
+              {pageRows.map((row, index) => {
+                const rowKey = row._id ?? startIndex + index;
+                const serviceLabels: Record<string, string> = { domicile: 'À domicile', ac: 'Climatisation', warranty: 'Garantie', workshop: 'Atelier', flexible: 'Flexible' };
+                const customActions = rowActions?.(row);
+                const canViewRow = Boolean(onSelect);
+                const canEditRow = Boolean(onEdit && (!canEdit || canEdit(row)));
+                const canDeleteRow = Boolean(onDelete && (!canDelete || canDelete(row)));
+                const hasRowActions = canViewRow || canEditRow || canDeleteRow || Boolean(customActions);
+                return (
                 <tr
-                  key={row._id ?? startIndex + index}
-                  onClick={onSelect ? () => onSelect(row) : undefined}
+                  key={rowKey}
+                  onClick={onSelect && rowClick ? () => onSelect(row) : undefined}
                 >
                   {columns.map((column) => {
                     const value = row[column.key as keyof ApiRow];
@@ -112,19 +144,33 @@ export function CustomTable({
                       <td key={column.key}>
                         {column.status ? (
                           <Status>{String(value ?? "—")}</Status>
+                        ) : column.pill ? (
+                          <span className={`table-service-pill service-${String(value ?? '').toLowerCase().replace(/[^a-z]+/g, '-')}`}>{serviceLabels[String(value)] || String(value ?? '—')}</span>
                         ) : (
                           String(value ?? "—")
                         )}
                       </td>
                     );
                   })}
-                  {(onEdit || onDelete || rowActions) && <td className="table-row-actions" onClick={event => event.stopPropagation()}>
-                    {onEdit && (!canEdit || canEdit(row)) && <button type="button" className="table-row-action" aria-label={`${editLabel} ${String(row[columns[0]?.key as keyof ApiRow] ?? 'cet élément')}`} title={editLabel} onClick={() => onEdit(row)}><Pencil size={14} /></button>}
-                    {onDelete && (!canDelete || canDelete(row)) && <button type="button" className="table-row-action delete" aria-label="Supprimer" title="Supprimer" onClick={() => onDelete(row)}><Trash2 size={14} /></button>}
-                    {rowActions?.(row)}
+                  {hasRowActions && <td className="table-row-actions" onClick={event => event.stopPropagation()}>
+                    <div className="table-action-menu-wrap">
+                      <button type="button" ref={activeMenu === rowKey ? activeTriggerRef : null} className={`table-more-action ${activeMenu === rowKey ? 'is-open' : ''}`} aria-label="Ouvrir les actions" aria-haspopup="menu" aria-expanded={activeMenu === rowKey} title="Actions" onClick={event => {
+                        if (activeMenu === rowKey) { setActiveMenu(null); return; }
+                        const rect = event.currentTarget.getBoundingClientRect();
+                        const above = window.innerHeight - rect.bottom < 200;
+                        setMenuPosition({ top: Math.max(8, above ? rect.top - 175 : rect.bottom + 5), left: Math.max(8, Math.min(window.innerWidth - 190, rect.right - 178)) });
+                        setActiveMenu(rowKey);
+                      }}><MoreHorizontal size={18} /></button>
+                      {activeMenu === rowKey && createPortal(<div ref={activeMenuRef} className="table-action-menu" style={{ top: menuPosition.top, left: menuPosition.left }} role="menu">
+                        {canViewRow && <button type="button" role="menuitem" onClick={() => { setActiveMenu(null); onSelect?.(row); }}><Eye size={14} /><span>{viewLabel}</span></button>}
+                        {canEditRow && <button type="button" role="menuitem" onClick={() => { setActiveMenu(null); onEdit?.(row); }}><Pencil size={14} /><span>{editLabel}</span></button>}
+                        {canDeleteRow && <button type="button" role="menuitem" className="is-danger" onClick={() => { setActiveMenu(null); onDelete?.(row); }}><Trash2 size={14} /><span>Supprimer</span></button>}
+                        {customActions && <div className="table-action-custom" onClick={event => { if ((event.target as HTMLElement).closest('button')) setActiveMenu(null); }}>{customActions}</div>}
+                      </div>, document.body)}
+                    </div>
                   </td>}
                 </tr>
-              ))}
+              );})}
             </tbody>
           </table>
         </div>
